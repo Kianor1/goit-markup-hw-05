@@ -433,8 +433,8 @@
     </footer>
     <div class="modal is-hidden" data-modal>
       <div class="modal-box">
-        <button class="modal-box-btn" type="button" data-modal-close>
-          <svg class="modal-box-btn-icon" width="8" height="8">
+        <button class="modal-box-close" type="button" data-modal-close>
+          <svg class="modal-box-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
@@ -470,6 +470,22 @@
               </input>
             </div>
           </div>
+          <div class="modal-comment-box">
+            <label class="modal-input-lbl" for="user-comment">Email</label>
+            <textarea class="modal-comment" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox-input visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true">
+            <label class="checkbox-lbl" for="user-privacy">I accept the terms and conditions of the
+              <span class="checkbox-custom">
+                <svg class="checkbox-custom-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              <a class="checkbox-user-privacy" href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-box-btn" type="button"></button>
         </form>
       </div>
     </div>
