@@ -828,7 +828,7 @@ img {
   color: var(--light-slt);
 }
 
-.checkbox-custom {
+.checkbox-custom-box {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -842,7 +842,7 @@ img {
   fill: transparent;
 }
 
-.checkbox-custom:checked + .checkbox-input:checked {
+.checkbox-input:checked + .checkbox-lbl > .checkbox-custom-box {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
