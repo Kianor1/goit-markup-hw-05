@@ -756,6 +756,15 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-name-box-lbl {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slt);
+  margin-bottom: 4px;
+}
+
 .modal-name-box-input {
   position: relative;
 }
