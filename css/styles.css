@@ -795,7 +795,7 @@ img {
 .modal-input:focus + .modal-input-icon {
   fill: var(--iris);
 }
-.modal-comment-lbl {
+modal-comment-box {
   margin-bottom: 16px;
 }
 
