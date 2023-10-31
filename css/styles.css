@@ -751,4 +751,12 @@ img {
   color: var(--light-slt);
   margin-bottom: 4px;
 }
+
+.modal-name-box {
+  margin-bottom: 8px;
+}
+
+.modal-name-box-input {
+  position: relative;
+}
 /* ====/modal==== */
