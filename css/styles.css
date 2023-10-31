@@ -796,6 +796,10 @@ img {
   fill: var(--iris);
 }
 
+.modal-input-lbl {
+  margin-bottom: 16px;
+}
+
 .modal-comment {
   width: 100%;
   height: 120px;
