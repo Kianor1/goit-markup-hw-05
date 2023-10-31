@@ -842,8 +842,8 @@ img {
   fill: transparent;
 }
 
-.checkbox-input:checked .checkbox-custom {
-  color: var(--ocean);
+.checkbox-custom:checked + .checkbox-input:checked {
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
